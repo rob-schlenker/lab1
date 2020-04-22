@@ -53,4 +53,76 @@ p {
     transform: translateX(-50%);
 }
 
+.button2 {
+    color: #FFF;
+    border: solid;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+}
 
+@media only screen and (min-width: 768px) {
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 5px;
+}
+
+p {
+    width: 50%;
+}
+
+.button {
+    display: inline;
+    width: auto;
+    position: fixed;
+    bottom: 20px;
+}
+
+.dot1 {
+    height: 250px;
+    width: 250px;
+    background-color: rgba(247,136,167,0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 13%;
+    top: 20%
+  }
+
+.dot2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247,193,162,0.7);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+  }
+
+.dot3 {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(207,130,213,0.6);
+    border-radius: 90%;
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    top: 25%
+  }
+
+
+}
