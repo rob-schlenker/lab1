@@ -123,6 +123,8 @@ p {
     right: 8%;
     top: 25%
   }
-
+main {
+    position: relative;
+}
 
 }
